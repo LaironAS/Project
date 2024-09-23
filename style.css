@@ -138,6 +138,7 @@
     grid-column-start: 1;
     grid-column-end: 3;
     width: fit-content;
+    margin: 0 auto;
 }
 
 .form-button:hover {
