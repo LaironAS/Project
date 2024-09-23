@@ -1,0 +1,150 @@
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.photo {
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.leftside {
+    display: flex;
+}
+
+.tik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+}
+
+.section {
+    margin-bottom: 20px;
+    border-top: 3px solid #54be57;
+    padding-top: 5px;
+}
+
+.about {
+    margin-top: 25px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5px;
+}
+
+.table {
+    border: 1px solid green;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.table-title {
+    text-align: center;
+    border-bottom: 1px solid green;
+}
+
+.border-left {
+    border-left: 1px solid green;
+}
+
+.border-right {
+    border-right: 1px solid green;
+}
+
+.table-list li:hover {
+    color: green;    
+}
+
+.table-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-green {
+    background-color: #6aaf51;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.imgrez {
+    width: 70%;
+}
+
+.tech-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.tech-cards:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 25px 0 #64a54d;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-inputarea {   
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+ 
+.form-button {
+    background-color: #5A9645;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: fit-content;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}
+
+.hyperlink-social {
+    text-decoration: none;
+    color: inherit;
+}
